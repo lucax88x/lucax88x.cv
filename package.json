@@ -7,6 +7,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "pdflatex -output-directory=./output -output-format=pdf Luca-Trazzi.tex "
+    "build": "mkdir -p output && pdflatex -output-directory=./output -output-format=pdf Luca-Trazzi.tex "
   }
 }
