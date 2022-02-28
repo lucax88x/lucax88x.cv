@@ -9,5 +9,9 @@ install texlive
 ### ARCHLINUX
 
 ```shell
-yay -S texlive-most
+paru -S texlive-most
 ```
+
+how to compile?
+
+check package.json
