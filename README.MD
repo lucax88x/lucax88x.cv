@@ -10,6 +10,7 @@ install texlive
 
 ```shell
 paru -S texlive-most
+brew install --cask mactex
 ```
 
 how to compile?
