@@ -14,8 +14,8 @@
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
 
-\firstname{Luca} % Your first name
-\familyname{Trazzi} % Your last name
+\firstname{Luca} 
+\familyname{Trazzi}
 % All information in this block is optional, comment out any lines you don't need
 \title{Full-stack Developer - Front-end Engineer - Coach}
 \address{Via Carlo Cattaneo 15, 22077}{Olgiate Comasco (CO), Italy}
@@ -28,23 +28,7 @@
 
 \begin{document}
 
-\makecvtitle % Print the CV title
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Education}
-
-\cventry{2016}{Certification}{Compass, AG}{Lugano}{}{ Software Security }
-\cventry{2015}{Certification}{Compass, AG}{Lugano}{}{ Software Security }
-\cventry{2014}{Certification}{Compass, AG}{Lugano}{}{ Software Security }
-\cventry{2013}{Certification}{Kentico}{Lugano}{}{ Kentico 7 Certified Developer }
-\cventry{2008--2012}{Degree}{Insubria University}{Como}{\textit{100/110}}{Doctor in Software Development}  % Arguments not required can be left empty
-\cventry{2011}{Certification}{British Institute}{Seregno}{\textit{B1}}{ English Certification}
-\cventry{2002--2007}{Diploma}{ITC Romagnosi}{Erba}{}{Accountant and Software-Developer High-School Diploma}
-
-\clearpage
+\makecvtitle
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE SECTION
@@ -53,42 +37,56 @@
 \setlength{\hintscolumnwidth}{3cm}
 \section{Experience}
 
-\cventry[2em]{06/2022--Present}{Quickline Energy Backend}{adesso Schweiz AG}{Quickline Energy}{Lugano}{
+\cventry[2em]{09/2024--Present}{wsdk}{adesso Schweiz AG}{Post}{Lugano}{
 \textit{Expert Software Engineer - Full-stack Tech Lead - Team Head}
 \newline
-todo
+Public administration project
 \newline
-dotnet 7, k8s, gitops, docker, angular, orleans, azure, argocd
+dotnet 8, k8s, argocd, angular
 }
 
-\cventry[2em]{02/2023--Present}{Quickline Tranformation}{adesso Schweiz AG}{Quickline}{Lugano}{
+\cventry[2em]{02/2024--Present}{Sdweb - Contentbroker}{adesso Schweiz AG}{Swisscom}{Lugano}{
+\textit{Expert Software Engineer - Full-stack Tech Lead - Team Head}
+\newline
+building a central "content" broker for a new system being built that will replace the admin.ch website
+\newline
+high traffic, high performances and low footprint is necessary
+\newline
+golang 1.22, elasticsearch, k8s, argocd, nestjs, caddy, livingdocs
+}
+
+\cventry[2em]{06/2022--04/2024}{Quickline Energy Backend}{adesso Schweiz AG}{Quickline Energy}{Lugano}{
+\textit{Expert Software Engineer - Full-stack Tech Lead - Team Head}
+\newline
+building a central backend to handle the provisioning, deprovisioning, and data of thousands of smart meters
+\newline
+performances were a critical factor due to high number of data and lot of responsabilities
+\newline
+dotnet 8, k8s, gitops, docker, angular, orleans, azure, argocd, rabbitmq, grpc, postgresql, timescaledb
+}
+
+\cventry[2em]{02/2023--10/2023}{Quickline Tranformation}{adesso Schweiz AG}{Quickline}{Lugano}{
 \textit{Expert Software Engineer - Full-stack Architect - Team Head}
 \newline
-todo
+co-leading the transformation of a very big system from .net 4.8 to 6
 \newline
-dotnet 4.8, 6, k8s
+assessing the stability and performances of k8s cluster
+\newline
+dotnet 4.8, 6, k8s, mssql, rancher
 }
 
 \cventry[2em]{02/2023--07/2023}{Finwell portal}{adesso Schweiz AG}{axa}{Lugano}{
 \textit{Expert Software Engineer - Front-end Coach - Team Head}
 \newline
-todo
+leading the transformation of the axa insurance portal from javascript with 0 tests to typescript
 \newline
-react
-}
-
-\cventry[2em]{01/2023--03/2023}{Landi Portrait}{adesso Schweiz AG}{Landi}{Lugano}{
-\textit{Expert Software Engineer - Front-end Coach - Team Head}
-\newline
-todo
-\newline
-nextjs
+react, typescript
 }
 
 \cventry[2em]{12/2021--05/2022}{Agropolis - Garaio}{Triman GMBH}{Garaio}{Chiasso}{
 \textit{Full-stack Developer - Front-end Engineer - Coach}
 \newline
-A double web-application (customer \& admin) for handling offer, prices, discounts, etc of the Fenaco group.
+a double web-application (customer \& admin) for handling offer, prices, discounts, etc of the Fenaco group.
 \newline
 dotnet core 3.1, azure functions (serverless), react, azure, TDD, docker, azure DevOps, kendo ui
 }
@@ -96,7 +94,7 @@ dotnet core 3.1, azure functions (serverless), react, azure, TDD, docker, azure 
 \cventry[2em]{12/2021--05/2022}{AB2V - Garaio}{Triman GMBH}{Garaio}{Chiasso}{
 \textit{Full-stack Developer - Front-end Engineer - Coach}
 \newline
-A azure devops extension that allows the company to log directly in the Vertec (time booking) system.
+a azure devops extension that allows the company to log directly in the Vertec (time booking) system.
 \newline
 net6, react, azure, TDD, DDD, docker, azure DevOps
 }
@@ -104,7 +102,7 @@ net6, react, azure, TDD, DDD, docker, azure DevOps
 \cventry[2em]{01/2021--12/2021}{Landi - Garaio}{Triman GMBH}{Garaio}{Chiasso}{
 \textit{Full-stack Developer - Front-end Engineer - Consultant}
 \newline
-Reimplementing part of the ecommerce to support new functionalities requested by the customer, such as orderability, shipping, payment, etc in their website (https://landi.ch).
+reimplementing part of the ecommerce to support new functionalities requested by the customer, such as orderability, shipping, payment, etc in their website (https://landi.ch).
 \newline
 net4.8, vue, compositec1, azure
 }
@@ -112,7 +110,7 @@ net4.8, vue, compositec1, azure
 \cventry[2em]{6/2020--05/2022}{Quickline - Garaio}{Triman GMBH}{Garaio}{Chiasso}{
 \textit{Full-stack Developer - Front-end Engineer - Consultant}
 \newline
-Implementing new changes requested by the customer for their public website (https://quickline.ch).
+implementing new changes requested by the customer for their public website (https://quickline.ch).
 \newline
 net4.8, vue, umbraco, azure
 }
@@ -120,9 +118,9 @@ net4.8, vue, umbraco, azure
 \cventry[2em]{04/2019--06/2020}{kairos}{Personal}{}{}{
 \textit{Full-stack Developer - Front-end Engineer - Architect}
 \newline
-It's a free and public product, available at https://kairos.rocks.
+it's a free and public product, available at https://kairos.rocks.
 \newline
-Selfmade PWA for handling enter-exit times - holiday-vacation-illness - extratime.
+selfmade PWA for handling enter-exit times - holiday-vacation-illness - extratime.
 \newline
 I did it because I needed such a tool and I wanted to stress-test and learn issues about scalability.
 \newline
@@ -132,13 +130,13 @@ dotnet core 3, Redis, EventStore, PWA, react, Redux, CQRS, TDD, DDD, ES, docker,
 \cventry[2em]{11/2019--02/2022}{CVTool - Garaio}{Triman GMBH}{Garaio}{Chiasso}{
 \textit{Full-stack Developer - Front-end Engineer - Architect \& Coach}
 \newline
-Creating a new product that allows companies and users to share curriculums with customers
+creating a new product that allows companies and users to share curriculums with customers
 \newline
-This product allows to have shared data regarding technologies, projects etc and to export in different templates for different customers
+this product allows to have shared data regarding technologies, projects etc and to export in different templates for different customers
 \newline
-It was meant to be sold as a PAAS.
+it was meant to be sold as a PAAS.
 \newline
-net6, azure Functions (serverless), PWA, react, Redux, azure, CQRS, TDD, DDD, ES, docker, azure DevOps
+dotnet 6, azure Functions (serverless), PWA, react, Redux, azure, CQRS, TDD, DDD, ES, docker, azure DevOps
 }
 
 \cventry[2em]{11/2019--03/2020}{Visits - Garaio REM}{Triman GMBH}{Garaio}{Chiasso}{
@@ -305,125 +303,120 @@ C\#, MS SQL
 
 \subsection{Programming Languages}
 
-\cvitemwithcomment{}{C\#}{master}
-\cvitemwithcomment{}{Typescript}{master}
-\cvitemwithcomment{}{Javascript}{master}
-\cvitemwithcomment{}{Actionscript}{intermediate}
-\cvitemwithcomment{}{VB.Net}{intermediate}
-\cvitemwithcomment{}{Rust}{beginner}
-\cvitemwithcomment{}{Latex}{beginner}
-\cvitemwithcomment{}{GO}{studying}
-\cvitemwithcomment{}{Haskell}{studying}
-
-\subsection{ide}
-\cvitemwithcomment{}{Rider}{master}
-\cvitemwithcomment{}{Vim}{master}
-\cvitemwithcomment{}{Emacs}{intermediate}
+\cvitemwithcomment{}{c\#}{}
+\cvitemwithcomment{}{typescript}{}
+\cvitemwithcomment{}{golang}{}
+\cvitemwithcomment{}{lua}{}
+\cvitemwithcomment{}{javascript}{}
+\cvitemwithcomment{}{actionscript}{}
+\cvitemwithcomment{}{vb.net}{}
+\cvitemwithcomment{}{latex}{}
 
 \subsection{Front-end}
 
-\cvitemwithcomment{frameworks}{React}{master}
-\cvitemwithcomment{}{nextjs}{master}
-\cvitemwithcomment{}{Angular}{master}
-\cvitemwithcomment{}{redux}{master}
-\cvitemwithcomment{}{Angularjs}{master}
-\cvitemwithcomment{}{PWA}{expert}
-\cvitemwithcomment{}{Vue}{expert}
-\cvitemwithcomment{}{Svelte}{beginner}
+\cvitemwithcomment{frameworks}{react}{}
+\cvitemwithcomment{}{nextjs}{}
+\cvitemwithcomment{}{angular}{}
+\cvitemwithcomment{}{redux}{}
+\cvitemwithcomment{}{angularjs}{}
+\cvitemwithcomment{}{pwa}{}
+\cvitemwithcomment{}{vue}{}
+\cvitemwithcomment{}{svelte}{}
 
 \subsection{JS World}
 
-\cvitemwithcomment{testing}{jest}{expert}
-\cvitemwithcomment{}{mocha}{expert}
-\cvitemwithcomment{}{karma}{expert}
-\cvitemwithcomment{}{Protractor}{expert}
-\cvitemwithcomment{}{Cypress}{expert}
+\cvitemwithcomment{testing}{jest}{}
+\cvitemwithcomment{}{mocha}{}
+\cvitemwithcomment{}{karma}{}
+\cvitemwithcomment{}{protractor}{}
+\cvitemwithcomment{}{cypress}{}
+\cvitemwithcomment{}{playwright}{}
 
-\cvitemwithcomment{packaging}{Npm}{expert}
-\cvitemwithcomment{}{Yarn}{expert}
-\cvitemwithcomment{}{Bower}{expert}
-
-\cvitemwithcomment{automation}{Gulp}{expert}
-\cvitemwithcomment{}{Grunt}{intermediate}
+\cvitemwithcomment{packaging}{npm}{}
+\cvitemwithcomment{}{bun}{}
+\cvitemwithcomment{}{pnpm}{}
 
 \subsection{Back-end}
-\cvitemwithcomment{frameworks}{net 6}{master}
-\cvitemwithcomment{}{dotnet core 3.1}{master}
-\cvitemwithcomment{}{MVC 1,2,3,4,5}{master}
-\cvitemwithcomment{}{WebApi 1,2}{master}
-\cvitemwithcomment{}{WebForms}{expert}
-\cvitemwithcomment{}{WCF Services}{expert}
-\cvitemwithcomment{}{NodeJS}{expert}
-
-\subsection{C\# World}
-\cvitemwithcomment{testing}{XUnit}{expert}
-\cvitemwithcomment{}{NUnit}{expert}
-
-\cvitemwithcomment{ORM}{NHibernate}{intermediate}
-\cvitemwithcomment{}{Entity Framework 6}{intermediate}
-
-\cvitemwithcomment{automation}{DevOps}{expert}
-\cvitemwithcomment{}{Jenkins}{intermediate}
-\cvitemwithcomment{}{Msbuild}{intermediate}
-\cvitemwithcomment{}{Octopus}{intermediate}
-\cvitemwithcomment{}{TeamCity}{beginner}
-
-\cvitemwithcomment{other}{Dapper}{expert}
+\cvitemwithcomment{frameworks}{net 8}{}
+\cvitemwithcomment{}{golang}{}
+\cvitemwithcomment{}{nestjs}{}
 
 \subsection{Docker}
-\cvitemwithcomment{}{docker}{master}
-\cvitemwithcomment{orchestrators}{k8s}{master}
-\cvitemwithcomment{}{docker-compose}{master}
-\cvitemwithcomment{}{Openshift}{beginner}
+\cvitemwithcomment{}{docker}{}
+\cvitemwithcomment{}{argocd}{}
+\cvitemwithcomment{orchestrators}{k8s}{}
+\cvitemwithcomment{}{docker-compose}{}
+\cvitemwithcomment{}{openshift}{}
 
 \subsection{Desktop}
-\cvitemwithcomment{}{Windows Presentation Foundation}{expert}
-\cvitemwithcomment{}{Windows Forms}{Intermediate}
+\cvitemwithcomment{}{windows presentation foundation}{}
+\cvitemwithcomment{}{windows forms}{}
 
 \subsection{Repositories}
-\cvitemwithcomment{}{Git}{master}
-\cvitemwithcomment{}{Mercurial}{intermediate}
-\cvitemwithcomment{}{Team Foundation Server}{intermediate}
+\cvitemwithcomment{}{git}{}
+\cvitemwithcomment{}{mercurial}{}
+\cvitemwithcomment{}{team foundation server}{}
 
 \subsection{Patterns}
-\cvitemwithcomment{}{SOLID}{master}
-\cvitemwithcomment{}{Test-Driven Development}{expert}
-\cvitemwithcomment{}{Unit Testing}{expert}
-\cvitemwithcomment{}{Integration Testing}{expert}
-\cvitemwithcomment{}{E2E Testing}{expert}
-\cvitemwithcomment{}{CQRS}{expert}
-\cvitemwithcomment{}{Event Sourcing}{expert}
-\cvitemwithcomment{}{Domain Driven Design}{expert}
+\cvitemwithcomment{}{solid}{}
+\cvitemwithcomment{}{test-driven development}{}
+\cvitemwithcomment{}{unit testing}{}
+\cvitemwithcomment{}{integration testing}{}
+\cvitemwithcomment{}{e2e testing}{}
+\cvitemwithcomment{}{cqrs}{}
+\cvitemwithcomment{}{event sourcing}{}
+\cvitemwithcomment{}{domain driven design}{}
 
 \subsection{Database}
-\cvitemwithcomment{RDBMS}{Microsoft SQL}{intermediate}
-\cvitemwithcomment{}{PostgreSQL}{intermediate}
-\cvitemwithcomment{}{MySQL}{intermediate}
-\cvitemwithcomment{}{SQLite}{intermediate}
-\cvitemwithcomment{}{Oracle SQL}{beginner}
-\cvitemwithcomment{NoSql}{Redis}{expert}
-\cvitemwithcomment{}{Cassandra}{intermediate}
-\cvitemwithcomment{}{dgraph}{intermediate}
-\cvitemwithcomment{}{Raven DB}{beginner}
-\cvitemwithcomment{}{Mongo DB}{beginner}
+\cvitemwithcomment{RDBMS}{microsoft sql}{}
+\cvitemwithcomment{}{postgresql}{}
+\cvitemwithcomment{}{timescaledb}{}
+\cvitemwithcomment{}{mysql}{}
+\cvitemwithcomment{}{sqlite}{}
+\cvitemwithcomment{}{oracle sql}{}
+\cvitemwithcomment{NoSql}{redis}{}
+\cvitemwithcomment{}{elasticsearch}{}
+\cvitemwithcomment{}{cassandra}{}
+\cvitemwithcomment{}{dgraph}{}
+\cvitemwithcomment{}{raven db}{}
+\cvitemwithcomment{}{mongo db}{}
 
 \subsection{Queues}
-\cvitemwithcomment{}{RabbitMQ}{intermediate}
+\cvitemwithcomment{}{rabbitmq}{}
 
 \subsection{Planning}
-\cvitemwithcomment{Agile}{Scrum}{intermediate}
-\cvitemwithcomment{}{Kanban}{intermediate}
+\cvitemwithcomment{Agile}{scrum}{}
+\cvitemwithcomment{}{kanban}{}
 
 \subsection{CMS}
-\cvitemwithcomment{}{Kentico}{certified}
-\cvitemwithcomment{}{Umbraco}{expert}
+\cvitemwithcomment{}{kentico}{}
+\cvitemwithcomment{}{umbraco}{}
 
 \subsection{SO}
-\cvitemwithcomment{}{Archlinux}{master}
-\cvitemwithcomment{}{Windows}{master}
-\cvitemwithcomment{}{Ubuntu}{expert}
+\cvitemwithcomment{}{archlinux}{}
+\cvitemwithcomment{}{macos}{}
+\cvitemwithcomment{}{windows}{}
+\cvitemwithcomment{}{ubuntu}{}
 
 \clearpage
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2023}{Certification}{Linux Foundation}{Lugano}{}{ CKAD - Certified Kubernetes Application Developer }
+\cventry{2016}{Certification}{Compass, AG}{Lugano}{}{ Software Security }
+\cventry{2015}{Certification}{Compass, AG}{Lugano}{}{ Software Security }
+\cventry{2014}{Certification}{Compass, AG}{Lugano}{}{ Software Security }
+\cventry{2013}{Certification}{Kentico}{Lugano}{}{ Kentico 7 Certified Developer }
+\cventry{2008--2012}{Degree}{Insubria University}{Como}{\textit{100/110}}{Doctor in Software Development}  % Arguments not required can be left empty
+\cventry{2011}{Certification}{British Institute}{Seregno}{\textit{B1}}{ English Certification}
+\cventry{2002--2007}{Diploma}{ITC Romagnosi}{Erba}{}{Accountant and Software-Developer High-School Diploma}
+
+\clearpage
+
 %----------------------------------------------------------------------------------------
 %	PERSONAL SKILLS SECTION
 %----------------------------------------------------------------------------------------
@@ -442,15 +435,7 @@ C\#, MS SQL
 
 \section{Others}
 \centerline{
-\href{https://lucax88x.github.io}{\includegraphics[width=50pt]{profile}}
-\quad
 \href{https://github.com/lucax88x}{\includegraphics[width=50pt]{github}}
-\quad
-\href{https://facebook.com/luca.trazzi}{\includegraphics[width=50pt]{facebook}}
-\quad
-\href{http://stackoverflow.com/users/127041/luca-trazzi}{\includegraphics[width=50pt]{stackoverflow}}
-\quad
-\href{https://twitter.com/LucaTrazzi}{\includegraphics[width=50pt]{twitter}}
 \quad
 \href{https://www.linkedin.com/in/luca-trazzi-93217931}{\includegraphics[width=50pt]{linkedin}}
 }
@@ -462,7 +447,7 @@ C\#, MS SQL
 \section{Languages}
 
 \cvitemwithcomment{Italy}{Mothertongue}{}
-\cvitemwithcomment{English}{Intermediate}{conversationally fluent, some troubles by phone}
+\cvitemwithcomment{English}{Advanced}{}
 \cvitemwithcomment{German}{Beginner}{studying}
 
 %----------------------------------------------------------------------------------------

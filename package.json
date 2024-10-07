@@ -8,6 +8,6 @@
   "private": false,
   "scripts": {
     "build": "mkdir -p output && pdflatex -output-directory=./output -output-format=pdf Luca-Trazzi.tex ",
-    "open": "npm run build && zathura ./output/Luca-Trazzi.pdf"
+    "open": "bun run build && zathura ./output/Luca-Trazzi.pdf"
   }
 }
